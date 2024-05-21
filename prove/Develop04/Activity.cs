@@ -14,7 +14,7 @@ public class Activity
     {
         
         Console.WriteLine($"\nWelcome to the {_name}");
-        Console.Write("\nHow many seconds you want?:  ");
+        Console.Write("\nHow many seconds you want? (10 minimum):  ");
         string i = Console.ReadLine();
         _duration = int.Parse(i);
         Console.Clear();

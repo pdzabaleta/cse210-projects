@@ -54,7 +54,7 @@ public class ListingActivity : Activity
             }
         }
 
-        Console.WriteLine($"You have completed {_duration} seconds of this activity!\n");
+        Console.WriteLine($"You have completed in {_duration} seconds of this activity!\n");
         DisplayEndingMessage();
     }
 
