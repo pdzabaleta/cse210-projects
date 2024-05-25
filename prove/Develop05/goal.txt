@@ -1,0 +1,2 @@
+SimpleGoal|goal 1 |test|10|True
+EternalGoal|goal 3|goal|10
