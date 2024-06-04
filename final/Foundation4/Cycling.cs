@@ -18,9 +18,13 @@ public class Cycling : Activity
     {
         return 60 / _speed;;
     }
-
-    public override string GetSummary()
+    public override string GetActivityType()
     {
-        return $"{GetDate()} Cycling ({GetDuration()} min): Distance {GetDistance()} km, Speed: {GetSpeed():0.0} kph, Pace: {GetPace():0.00} min per km";
+        return "Cycling";
     }
+
+    // public override string GetSummary()
+    // {
+    //     return $"{GetDate()} Cycling ({GetDuration()} min): Distance {GetDistance()} km, Speed: {GetSpeed():0.0} kph, Pace: {GetPace():0.00} min per km";
+    // }
 }

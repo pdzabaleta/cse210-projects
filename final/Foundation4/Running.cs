@@ -18,9 +18,13 @@ public class Running : Activity
     {
         return GetDuration() / _distance;
     }
-
-    public override string GetSummary()
+    public override string GetActivityType()
     {
-        return $"{GetDate()} Running ({GetDuration()} min): Distance {GetDistance()} km, Speed: {GetSpeed():0.0} kph, Pace: {GetPace():0.00} min per km";
+        return "Running";
     }
+
+    // public override string GetSummary()
+    // {
+    //     return $"{GetDate()} Running ({GetDuration()} min): Distance {GetDistance()} km, Speed: {GetSpeed():0.0} kph, Pace: {GetPace():0.00} min per km";
+    // }
 }
